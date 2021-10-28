@@ -1,0 +1,211 @@
+body,p, h2, h3, h1, input
+/*Fonte das letras do site*/
+{
+    margin: 0;
+    font-family: "Baloo Bhai 2", cursive;
+}
+
+h2 
+{
+    font-size: 30px;
+}
+
+#navbar
+/*cor da barra de cima*/
+{
+    background-color: rosybrown;
+    color: whitesmoke;
+    padding: 0px;
+    height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav
+{
+    display: inline-block;
+}
+
+#navbar h2
+ /*Zaly -> branco*/ 
+{
+    margin: 0;
+    line-height: 60px;
+    margin-left: 80px;
+}
+
+#navbar img
+ /*logo (em cima)*/
+{
+    position: absolute;
+} 
+
+#navbar nav
+/* posição dos tópicos*/
+{
+    float: right;
+    margin-top: 22px;
+}
+
+#navbar li
+{
+   margin: 0 10px; 
+} 
+
+#navbar-list li a
+/* cor dos tópicos*/
+{
+    text-decoration: none;
+    color: rgb(119, 3, 67);
+}
+
+#navbar-list li a:hover
+/* aparecer a barrinha em baixo da palavra quando passar mouse*/
+{
+    border-bottom: 1px solid rgb(119, 3, 67);
+}
+
+/* Banner*/
+
+#main-banner
+{
+    height: 70vh; /* 70% da altura da tela*/
+    background-color: bisque;
+    background-size: cover;
+    padding-top: 15vh;
+}
+
+#banner-info
+{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color:white;
+    padding: 50px;
+}
+
+#banner-info img
+/*Circulo com a imagem -> Zaly*/
+{
+    height: 250px;
+    border-radius: 80%;
+    background-color: rgb(119, 3, 67);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#banner-info h4
+/* Caixinha -> brechó*/
+{
+    background-color: rosybrown ;
+    font-weight: bold; /*negrito*/
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+
+/* about */
+
+#about-section
+{
+   text-align: center; 
+   background-color: rgb(119, 3, 67);
+   color: white;
+   padding-top: 50px;
+   height: 100px;
+}
+
+#about- section h2
+{
+    margin-bottom: 20px;
+}
+
+/*skills*/
+
+#skills-section 
+{
+    margin-top: 0px;
+    background-color: rosybrown;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid bisque;
+    border-radius: 10px;
+}
+
+#skills-section .container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container
+{
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.skills-containercentral
+/*bordinhas -> linha*/
+{
+    border-left: 1px solid #ccc;  
+    border-right: 1px solid #ccc; 
+}
+
+.skills-container h3
+{
+    color: rgb(119, 3, 67);
+    font-size: 20px;
+}
+
+.skills-container img
+{
+    height: 200px;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-top: 1px solid rgb(119, 3, 67) ;
+    border-left: 1px solid rgb(119, 3, 67) ;
+    border-bottom: 4px solid rgb(119, 3, 67) ;
+    border-right: 4px solid rgb(119, 3, 67) ;
+}
+
+/*footer*/
+
+footer
+{
+    padding: 50px ;
+    background-color: bisque;
+    color: rgb(119, 3, 67);
+    text-align: center;
+}
+
+footer img
+{
+    height: 150px;
+    margin-top: 45px 0px;
+}
+
+footer p
+/*Desenvolvido pela...*/
+{
+    margin-top: 25px;
+}
+
+footer form
+{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input
+{
+    border: none; /*não existe borda*/
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
